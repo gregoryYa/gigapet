@@ -12,6 +12,8 @@
 		F36190851CA982C300777665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36190831CA982C300777665 /* Main.storyboard */; };
 		F36190871CA982C300777665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36190861CA982C300777665 /* Assets.xcassets */; };
 		F361908A1CA982C300777665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36190881CA982C300777665 /* LaunchScreen.storyboard */; };
+		F36190921CAC0FFF00777665 /* dragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36190911CAC0FFF00777665 /* dragImg.swift */; };
+		F36190941CAD2BED00777665 /* monsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36190931CAD2BED00777665 /* monsterImg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F36190861CA982C300777665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F36190891CA982C300777665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F361908B1CA982C300777665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36190911CAC0FFF00777665 /* dragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dragImg.swift; sourceTree = "<group>"; };
+		F36190931CAD2BED00777665 /* monsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = monsterImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				F361907F1CA982C300777665 /* AppDelegate.swift */,
 				F36190811CA982C300777665 /* ViewController.swift */,
+				F36190911CAC0FFF00777665 /* dragImg.swift */,
 				F36190831CA982C300777665 /* Main.storyboard */,
 				F36190861CA982C300777665 /* Assets.xcassets */,
 				F36190881CA982C300777665 /* LaunchScreen.storyboard */,
 				F361908B1CA982C300777665 /* Info.plist */,
+				F36190931CAD2BED00777665 /* monsterImg.swift */,
 			);
 			path = myLittleMonster;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F36190941CAD2BED00777665 /* monsterImg.swift in Sources */,
 				F36190821CA982C300777665 /* ViewController.swift in Sources */,
+				F36190921CAC0FFF00777665 /* dragImg.swift in Sources */,
 				F36190801CA982C300777665 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
