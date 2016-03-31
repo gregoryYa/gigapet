@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     func itemDroppedOnCharacter(notif: AnyObject) {
         
     }
-    
+       
     func startTimer() {
         if timer != nil {
             timer.invalidate()
